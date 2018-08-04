@@ -9,6 +9,7 @@
 	<link rel="icon" href="images/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grids.css">
 	<link rel="stylesheet" href="css/styles.css">
 
 	<!--[if lt IE 9]>
@@ -16,67 +17,89 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="container">
-		<header class="header">
+	<header class="header">
+		<div class="container">
 			<nav class="menu">
 				<ul class="menu-list">
 					<li class="menu-list__item menu-list__item--active">
 						<a href="#" class="link">About</a>
 					</li>
 					<li class="menu-list__item">
-						<a href="#" class="link">Contacts</a>
+						<a href="#contacts" class="link">Contacts</a>
 					</li>
 					<li class="menu-list__item">
 						<a href="#" class="link">Projects</a>
 					</li>
 				</ul>
 			</nav>
-		</header>
-		<section class="section">
+		</div>
+	</header>
+	<section class="section about">
+		<div class="container">
 			<img class="profile" src="images/fotoanna.jpg" alt="Photo">
 			<!--<img class="mazok" src="images/mazok.jpg" alt="Mazok">-->
 			<h2 class="title">Anna Petko</h2>
 			<h3 class="subtitle">Web Designer</h3>
-			<p class="content">Hello, let me introduce myself.  My name is Anna, my surname is Petko.I also like to paint.I even finished an art school.I like creativity and appreciate this trait in others.I like to communicate, to dance, to surf the net, like self-education, etc. I highly organized and detail-oriented.I am hard-working and responsible person. I keep up-to-date with changes in the industry.Created logo and advertising layouts for a web-site.As you can guess, my profession is designer.Welcome to my page.</p>
-
-			<div class="advantage">
-				<h3 class="subtitle"></h3>
-				<ul class="adv-list">
-					<li class="adv-list__item">
-						<img class="icon" src="images/svg/time.svg" alt="Time">
-						<p class="content">I do my projects quickly and efficiently</p>
-					</li>
-					<li class="adv-list__item">
-						<img class="icon" src="images/svg/idea.svg" alt="Lamp">
-						<p class="content">I have a lot of creative ideas</p>
-					</li>
-					<li class="adv-list__item">
-						<img class="icon" src="images/svg/money-bag.svg" alt="Bag">
-						<p class="content">My prices are fixed for some standard services.</p>
-					</li>
-				</ul>
+			<div class="row">
+				<div class="col-8 offset-2">
+				<p class="content">Hello, let me introduce myself.  My name is Anna, my surname is Petko.I also like to paint.I even finished an art school.I like creativity and appreciate this trait in others.I like to communicate, to dance, to surf the net, like self-education, etc. I highly organized and detail-oriented.I am hard-working and responsible person. I keep up-to-date with changes in the industry.Created logo and advertising layouts for a web-site.As you can guess, my profession is designer.Welcome to my page.</p>		
+				</div>
 			</div>
-		
-		</section>
-		<section class="section section--projects">
-			<h2 class="title">My projects</h2>
-			<div><img src="" alt=""></div>
-			<div><img src="" alt=""></div>
-			<div><img src="" alt=""></div>
-			<div><img src="" alt=""></div>
-			<div><img src="" alt=""></div>
-		</section>
-		<footer class="footer">
-			<h3 class="subtitle">Contacts</h3>
-			<a href="#" class="link"><img class="social" src="images/svg/skype.svg" alt=""></a>
-			<a href="#" class="link"><img class="social" src="images/svg/insta.svg" alt=""></a>
+		</div>
+	</section>
+	<section class="section advantage">
+		<div class="container">
+			<h3 class="subtitle">My advantages</h3>
+			<ul class="adv-list">
+				<li class="adv-list__item">
+					<img class="icon" src="images/svg/time.svg" alt="Time">
+					<p class="content">I do my projects quickly and efficiently</p>
+				</li>
+				<li class="adv-list__item">
+					<img class="icon" src="images/svg/idea.svg" alt="Lamp">
+					<p class="content">I have a lot of creative ideas</p>
+				</li>
+				<li class="adv-list__item">
+					<img class="icon" src="images/svg/money-bag.svg" alt="Bag">
+					<p class="content">My prices are fixed for some standard services.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="section projects">
+		<div class="container">
+			<h2 class="title title--projects">My projects</h2>
+			<div class="row">
+				<div class="col-7 image__wrapper">
+						<div class="row image__wrapper	">
+							<div class="col-8 image__wrapper"><img class="projects__img" src="images/moto.jpg" alt="moto"></div>
+							<div class="col-4 image__wrapper"><img class="projects__img" src="images/lera.jpg" alt="lera"></div>
+						</div>
+						<div class="row image__wrapper">
+							<div class="col-12 image__wrapper"><img class="projects__img" src="images/buy.jpg" alt="buy"></div>
+						</div>
+						<div class="row image__wrapper	">
+							<div class="col-6 image__wrapper"><img class="projects__img" src="images/flowers.jpg" alt="flowers"></div>
+							<div class="col-6 image__wrapper"><img class="projects__img" src="images/pooh.jpg" alt="pooh"></div>
+						</div>
+				</div>
+				<div class="col-5 image__wrapper"><img src="images/toys.jpg" alt="toys"></div>
+			</div>
+
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<h3 class="subtitle" id="contacts">Contacts</h3>
+			<ul class="social-list">
+				<li class="social-item"><a href="#" class="link"><img class="social" src="images/svg/skype.svg" alt=""></a></li>
+				<li class="social-item"><a href="#" class="link"><img class="social" src="images/svg/insta.svg" alt=""></a></li>
+			</ul>
+
 			<a href="#" class="link">+38 (095) 72-78-818</a>
-			<a href="#" class="link">anutapetrechenko@mail.con</a>
-		</footer>
-		
-	</div>
-
-
+			<a href="#" class="link">anutapetrechenko@mail.con</a>	
+		</div>
+	</footer>
 <!-- LiveReload Script -->
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
