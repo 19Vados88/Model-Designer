@@ -96,19 +96,22 @@ body, html {
 	z-index: -1;
 }
 
-.title--projects {
-	margin-bottom: 215px;
+.title-projects {
+	margin-bottom: 200px;
 }
 
 .subtitle {
 	font: 700 36px/40px 'Josefin Slab', serif;
 	color: #262722;
-	margin-top: 20px;
+	margin-top: 10px;
+	padding-top: 10px;
 }
 
 .content {
 	font-size: 16px;
 	line-height: 18px;
+	margin-top: 100px;
+	text-align: left;
 }
 
 .icon {
@@ -121,11 +124,18 @@ body, html {
 }
 .advantage{
 	background: #dbf56a;
+	margin-top: 140px;
 }
 .adv-list__item {
 	display: inline-block;
 	font-size: 16px;
 	line-height: 18px;
+	padding-top: 80px;
+	margin: 0 25px;
+}
+
+.content-adv {
+	padding: 60px 0 160px 0;
 }
 
 .projects {
@@ -145,6 +155,11 @@ body, html {
 	justify-content: center;
 }
 
+.social-item {
+	padding-top: 40px;
+	margin: 0 20px;
+}
+
 .footer {
 	width: 100%;
 	padding: 50px 0 110px;
@@ -160,4 +175,15 @@ body, html {
 	margin: 0;
 	padding: 0;
 	font-size: 0;
+}
+
+.link-ftr {
+	margin-top: 40px;
+	font:700 36px/40px 'Josefin Slab', serif;
+	text-decoration: none;
+	color: #262722;
+}
+
+.link-ftr:hover {
+	color: #df8799;
 }
