@@ -141,8 +141,8 @@ body, html {
 .projects {
 	background: url(../images/greenbg.jpg) no-repeat center center;
 	background-size: contain;
-	background-position: 50% 260px;
-	padding: 115px 0 340px;
+	background-position: 60% 260px;
+	padding: 55px 0 340px;
 }
 .projects__img{
 	width: 100%;
