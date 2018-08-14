@@ -126,7 +126,7 @@ body, html {
 	background: #dbf56a;
 	margin-top: 140px;
 }
-.advntages-list__item {
+.skills-list__item {
 	display: inline-block;
 	font-size: 16px;
 	line-height: 18px;
@@ -134,7 +134,7 @@ body, html {
 	margin: 0 25px;
 }
 
-.content-advntages {
+.content-skills {
 	padding: 60px 0 160px 0;
 }
 
